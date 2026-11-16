@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raíza - Vivero & Café</title>
+    <link rel="stylesheet" href="Estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+   
+<!-- HEADER -->
+<header class="header">
+
+    <!-- MENU HAMBURGUESA MOBILE -->
+    <button class="menu-hamburguesa" onclick="abrirMenu()">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <!-- LOGO -->
+    <div class="logo">
+        <a href="index.html">RAÍZA</a>
+    </div>
+
+    <!-- NAVEGACION DESKTOP -->
+    <nav class="menu-derecha">
+        <a href="menu.html">CAFETERÍA</a>
+        <a href="reserva.html">RESERVA</a>
+        <a href="contacto.html">CONTACTO</a>
+        <a href="tienda.html">TIENDA</a>
+    </nav>
+
+    <!-- MENU DESPLEGABLE MOBILE -->
+    <nav class="menu-mobile" id="menuMobile">
+
+        <button onclick="cerrarMenu()">X</button>
+
+        <a href="index.html">INICIO</a>
+        <a href="menu.html">CAFETERÍA</a>
+        <a href="reserva.html">RESERVA</a>
+        <a href="contacto.html">CONTACTO</a>
+        <a href="tienda.html">TIENDA</a>
+
+    </nav>
+
+</header>
+
+
+
+    <!-- SECCION 1: INICIO -->
+    <section class="inicio">
+
+        <div class="inicio-texto">
+
+            <p>VIVERO & CAFÉ</p>
+
+            <h1>Tu pausa verde,<br>
+                <em>empieza acá</em>
+            </h1>
+
+            <div class="inicio-botones">
+                <a href="menu.html" class="boton">CAFETERÍA</a>
+                <a href="tienda.html" class="boton">VIVERO</a>
+            </div>
+
+        </div>
+
+        <div class="inicio-imagen">
+            <img src="imagenes/home-arco.png" alt="Entrada de Raíza">
+        </div>
+
+    </section>
+
+
+    <!-- SECCION 2: NUESTRA ESENCIA -->
+    <section class="esencia">
+
+        <p>NUESTRA ESENCIA</p>
+
+        <h2>Donde la naturaleza y el café se encuentran</h2>
+
+        <p>
+            Raíza nace como un espacio para bajar el ritmo,
+            disfrutar y conectar en un ambiente rodeado de verde.
+        </p>
+
+    </section>
+
+
+    <!-- SECCION 3: CAFETERIA Y TIENDA -->
+    <section class="opciones">
+
+        <h2>Dos formas de quedarte</h2>
+
+        <div class="opciones-contenedor">
+
+            <!-- CAFETERIA -->
+            <div class="opcion-cafeteria">
+
+                <img src="imagenes/comida-home.jpg" alt="Cafetería Raíza">
+
+                <div class="opcion-texto">
+
+                    <p>01</p>
+
+                    <h3>Cafetería</h3>
+
+                    <p>
+                        Meriendas, dulces y salados para
+                        disfrutar entre plantas.
+                    </p>
+
+                    <a href="menu.html">→</a>
+
+                </div>
+
+            </div>
+
+
+            <!-- TIENDA -->
+            <div class="opcion-tienda">
+
+                <img src="imagenes/buda4.jpg" alt="Productos de la tienda">
+
+                <div class="opcion-texto">
+
+                    <p>02</p>
+
+                    <h3>Tienda</h3>
+
+                    <p>Figuras de Buda para llevarte a casa.</p>
+
+                    <a href="tienda.html">→</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SECCION 4: UBICACION -->
+    <section class="ubicacion">
+
+        <div class="ubicacion-video">
+
+            <video controls playsinline>
+                <source src="imagenes/videoHome.MP4" type="video/mp4">
+            </video>
+
+        </div>
+
+        <div class="ubicacion-texto">
+
+            <p>CÓMO ENCONTRARNOS</p>
+
+            <h2>Te esperamos en <em>RAÍZA</em></h2>
+
+            <p>
+                Raíza Vivero & Café<br>
+                Av. 12 de Octubre 3281, B1669 La Lonja,<br>
+                Provincia de Buenos Aires
+            </p>
+
+            <a href="https://maps.app.goo.gl/AaUQ6u7UE7i6q1DZ9" class="boton">
+                CÓMO LLEGAR →
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-derechos">
+            <p>© 2026 Raíza - Todos los derechos reservados</p>
+        </div>
+
+        <div class="footer-logo">
+            <a href="index.html">RAÍZA</a>
+        </div>
+
+        <div class="footer-redes">
+
+            <a href="https://www.instagram.com/raizaviverocafe">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+        </div>
+
+    </footer>
+
+
+<!-- WHATSAPP FLOTANTE -->
+<a href="https://api.whatsapp.com/send?phone=5491124633731&text=Buenas!"
+   class="whatsapp-flotante"
+   target="_blank">
+    <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+
+    <!-- JAVASCRIPT MENU MOBILE -->
+    <script src="script.js"></script>
+
+</body>
+</html>

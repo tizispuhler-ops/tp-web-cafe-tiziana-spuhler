@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda - Raíza</title>
+    <link rel="stylesheet" href="Estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+   
+<!-- HEADER -->
+<header class="header">
+
+    <!-- MENU HAMBURGUESA MOBILE -->
+    <button class="menu-hamburguesa" onclick="abrirMenu()">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <!-- LOGO -->
+    <div class="logo">
+        <a href="index.html">RAÍZA</a>
+    </div>
+
+    <!-- NAVEGACION DESKTOP -->
+    <nav class="menu-derecha">
+        <a href="menu.html">CAFETERÍA</a>
+        <a href="reserva.html">RESERVA</a>
+        <a href="contacto.html">CONTACTO</a>
+        <a href="tienda.html" class="activo">TIENDA</a>
+
+        <!-- CARRITO -->
+        <a href="#" class="icono-carrito" onclick="abrirCarrito(); return false;">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </a>
+    </nav>
+
+    <!-- MENU DESPLEGABLE MOBILE -->
+    <nav class="menu-mobile" id="menuMobile">
+
+        <button onclick="cerrarMenu()">X</button>
+
+        <a href="index.html">INICIO</a>
+        <a href="menu.html">CAFETERÍA</a>
+        <a href="reserva.html">RESERVA</a>
+        <a href="contacto.html">CONTACTO</a>
+        <a href="tienda.html">TIENDA</a>
+
+    </nav>
+
+    <!-- CARRITO MOBILE -->
+    <a href="#" class="carrito-mobile" onclick="abrirCarrito(); return false;">
+        <i class="fa-solid fa-cart-shopping"></i>
+    </a>
+
+</header>
+
+
+
+    <!-- PORTADA TIENDA -->
+    <section class="tienda-portada">
+
+        <div class="tienda-portada-texto">
+
+            <p>TIENDA</p>
+
+            <h1>Un rincón de calma,<br>
+                <em>para llevarte a casa</em>
+            </h1>
+
+            <p class="tienda-descripcion">
+                Figuras de Buda y pequeños monjes para tu jardín,
+                tu living o tu escritorio.
+            </p>
+
+            <a href="#coleccion" class="tienda-boton">
+                VER COLECCIÓN
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- SECCION PRODUCTOS -->
+    <section class="tienda-productos" id="coleccion">
+
+        <h2>Nuestras figuras</h2>
+
+        <div class="tienda-contenedor">
+
+            <!-- PRODUCTO 1 -->
+            <div class="tienda-producto">
+
+                <img src="imagenes/buda_durmiente_raiza.png" alt="Buda Durmiente">
+
+                <div class="tienda-producto-info">
+                    <h3>Buda Durmiente</h3>
+                    <span>$18.000</span>
+                </div>
+
+                <p>Reclinado · 60 cm · jardín</p>
+
+                <button class="tienda-agregar" onclick="agregarAlCarrito(0)">
+                    AGREGAR AL CARRITO
+                </button>
+
+            </div>
+
+
+            <!-- PRODUCTO 2 -->
+            <div class="tienda-producto">
+
+                <img src="imagenes/buda_loto_raiza.png" alt="Buda Loto">
+
+                <div class="tienda-producto-info">
+                    <h3>Buda Loto</h3>
+                    <span>$12.500</span>
+                </div>
+
+                <p>Sentado · portavelas</p>
+
+                <button class="tienda-agregar" onclick="agregarAlCarrito(1)">
+                    AGREGAR AL CARRITO
+                </button>
+
+            </div>
+
+
+            <!-- PRODUCTO 3 -->
+            <div class="tienda-producto">
+
+                <img src="imagenes/monje_sonador_raiza.png" alt="Monje Soñador">
+
+                <div class="tienda-producto-info">
+                    <h3>Monje Soñador</h3>
+                    <span>$9.500</span>
+                </div>
+
+                <p>Mini monje · turquesa</p>
+
+                <button class="tienda-agregar" onclick="agregarAlCarrito(2)">
+                    AGREGAR AL CARRITO
+                </button>
+
+            </div>
+
+
+            <!-- PRODUCTO 4 -->
+            <div class="tienda-producto">
+
+                <img src="imagenes/monje_bailarin_raiza.png" alt="Monje Bailarín">
+
+                <div class="tienda-producto-info">
+                    <h3>Monje Bailarín</h3>
+                    <span>$9.500</span>
+                </div>
+
+                <p>Mini monje · turquesa</p>
+
+                <button class="tienda-agregar" onclick="agregarAlCarrito(3)">
+                    AGREGAR AL CARRITO
+                </button>
+
+            </div>
+
+
+            <!-- PRODUCTO 5 -->
+            <div class="tienda-producto">
+
+                <img src="imagenes/buda_sonriente_raiza.png" alt="Buda Sonriente">
+
+                <div class="tienda-producto-info">
+                    <h3>Buda Sonriente</h3>
+                    <span>$14.000</span>
+                </div>
+
+                <p>Sentado · piedra marfil</p>
+
+                <button class="tienda-agregar" onclick="agregarAlCarrito(4)">
+                    AGREGAR AL CARRITO
+                </button>
+
+            </div>
+
+
+            <!-- PRODUCTO 6 -->
+            <div class="tienda-producto">
+
+                <img src="imagenes/buda_meditador_raiza.png" alt="Buda Meditador">
+
+                <div class="tienda-producto-info">
+                    <h3>Buda Meditador</h3>
+                    <span>$16.000</span>
+                </div>
+
+                <p>Sentado · cobre y turquesa</p>
+
+                <button class="tienda-agregar" onclick="agregarAlCarrito(5)">
+                    AGREGAR AL CARRITO
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CARRITO LATERAL -->
+    <div class="carrito-lateral" id="carrito">
+
+        <div class="carrito-encabezado">
+
+            <h2>Tu carrito</h2>
+
+            <button onclick="cerrarCarrito()">X</button>
+
+        </div>
+
+        <div id="listaCarrito">
+            <p>Todavía no agregaste productos.</p>
+        </div>
+
+        <div class="carrito-total">
+            <h3>TOTAL</h3>
+            <p id="totalCarrito">$0</p>
+        </div>
+
+        <button class="carrito-seguir" onclick="cerrarCarrito()">
+            SEGUIR COMPRANDO
+        </button>
+
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-derechos">
+            <p>© 2026 Raíza - Todos los derechos reservados</p>
+        </div>
+
+        <div class="footer-logo">
+            <a href="index.html">RAÍZA</a>
+        </div>
+
+        <div class="footer-redes">
+
+            <a href="https://www.instagram.com/raizaviverocafe">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+        </div>
+
+    </footer>
+
+
+<!-- WHATSAPP FLOTANTE -->
+<a href="https://api.whatsapp.com/send?phone=5491124633731&text=Buenas!"
+   class="whatsapp-flotante"
+   target="_blank">
+    <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>

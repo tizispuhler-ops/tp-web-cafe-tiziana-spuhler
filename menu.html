@@ -1,0 +1,958 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafetería - Raíza</title>
+    <link rel="stylesheet" href="Estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+   
+<!-- HEADER -->
+<header class="header">
+
+    <!-- MENU HAMBURGUESA MOBILE -->
+    <button class="menu-hamburguesa" onclick="abrirMenu()">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <!-- LOGO -->
+    <div class="logo">
+        <a href="index.html">RAÍZA</a>
+    </div>
+
+    <!-- NAVEGACION DESKTOP -->
+    <nav class="menu-derecha">
+        <a href="menu.html" class="activo">CAFETERÍA</a>
+        <a href="reserva.html">RESERVA</a>
+        <a href="contacto.html">CONTACTO</a>
+        <a href="tienda.html">TIENDA</a>
+    </nav>
+
+    <!-- MENU DESPLEGABLE MOBILE -->
+    <nav class="menu-mobile" id="menuMobile">
+
+        <button onclick="cerrarMenu()">X</button>
+
+        <a href="index.html">INICIO</a>
+        <a href="menu.html">CAFETERÍA</a>
+        <a href="reserva.html">RESERVA</a>
+        <a href="contacto.html">CONTACTO</a>
+        <a href="tienda.html">TIENDA</a>
+
+    </nav>
+
+</header>
+
+
+
+    <!-- PORTADA NUESTRA CARTA -->
+    <section class="menu-portada">
+
+        <div class="menu-portada-texto">
+            <p>CAFETERÍA</p>
+            <h1>Nuestra<br><em>carta</em></h1>
+        </div>
+
+        <div class="menu-portada-categorias">
+            <a href="#cafeteria">01 Cafetería</a>
+            <a href="#autor">02 De Autor</a>
+            <a href="#te">03 Té</a>
+            <a href="#bebidas">04 Bebidas</a>
+            <a href="#desayunos">05 Desayunos y Meriendas</a>
+            <a href="#panaderia">06 Panadería y Pastelería</a>
+            <a href="#salados">07 Salados</a>
+        </div>
+
+    </section>
+
+
+    <!-- SECCION 1: CAFETERIA -->
+    <section class="menu-seccion" id="cafeteria">
+
+        <div class="menu-titulo">
+            <p>01</p>
+            <h2>Cafetería</h2>
+        </div>
+
+        <div class="menu-contenido">
+
+            <h3>CAFÉ</h3>
+
+            <div class="menu-columnas">
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Espresso</p>
+                        <span>$4.700</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Doble Espresso</p>
+                        <span>$5.500</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Espresso Macchiato</p>
+                        <span>$5.600</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Cortado / Jarrito</p>
+                        <span>$4.800</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Americano</p>
+                        <span>$5.200</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Americano Doble</p>
+                        <span>$5.800</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Capuccino</p>
+                        <span>$7.100</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Flat White</p>
+                        <span>$7.500</span>
+                    </div>
+
+                </div>
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Latte</p>
+                        <span>$6.800</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Café con Leche</p>
+                        <span>$6.900</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Tazón Café con Leche</p>
+                        <span>$8.900</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Submarino</p>
+                        <span>$6.700</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Matcha Latte</p>
+                        <span>$6.700</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Matcha Latte Strawberry</p>
+                        <span>$9.900</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Julipoccino Frappé</p>
+                        <span>$10.500</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <h3>ESPECIALES</h3>
+
+            <div class="menu-columnas">
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Mocaccino</p>
+                        <span>$9.000</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Latte Sabores</p>
+                        <span>$8.000</span>
+                    </div>
+
+                </div>
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Latte Dubai</p>
+                        <span>$8.800</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <h3>CAFÉ FRÍO</h3>
+
+            <div class="menu-columnas">
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Latte</p>
+                        <span>$6.900</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Latte Saborizado</p>
+                        <span>$8.900</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Flat White</p>
+                        <span>$7.900</span>
+                    </div>
+
+                </div>
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Iced Matcha Latte</p>
+                        <span>$6.800</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Iced Matcha Strawberry</p>
+                        <span>$10.000</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Espresso Tonic</p>
+                        <span>$9.900</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SECCION 2: DE AUTOR -->
+    <section class="menu-seccion menu-seccion-verde" id="autor">
+
+        <div class="menu-titulo">
+            <p>02</p>
+            <h2>De Autor</h2>
+        </div>
+
+        <div class="menu-contenido">
+
+            <div class="menu-columnas">
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Raíza</p>
+                        <span>$9.700</span>
+                    </div>
+
+                </div>
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Julipo</p>
+                        <span>$9.700</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Spring So Cute</p>
+                        <span>$13.500</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SECCION 3: TE -->
+    <section class="menu-seccion" id="te">
+
+        <div class="menu-titulo">
+            <p>03</p>
+            <h2>Té</h2>
+        </div>
+
+        <div class="menu-contenido">
+
+            <h3>TÉ EN HEBRAS</h3>
+
+            <div class="menu-columnas">
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Negro Premium</p>
+                        <span>$5.500</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Armonía en las Alturas</p>
+                        <span>$5.500</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Frutos Rojos</p>
+                        <span>$5.500</span>
+                    </div>
+
+                </div>
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Alegría de Vivir</p>
+                        <span>$5.500</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Alma Selvática</p>
+                        <span>$5.500</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Fuerza Solar - Masala Chai</p>
+                        <span>$5.500</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <h3>TÉ FRÍO</h3>
+
+            <div class="menu-columnas">
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Chai</p>
+                        <span>$5.700</span>
+                    </div>
+
+                </div>
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Frutos Rojos</p>
+                        <span>$5.700</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SECCION 4: BEBIDAS -->
+    <section class="menu-seccion" id="bebidas">
+
+        <div class="menu-titulo">
+            <p>04</p>
+            <h2>Bebidas</h2>
+        </div>
+
+        <div class="menu-contenido">
+
+            <h3>GASEOSAS</h3>
+
+            <div class="menu-columnas">
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Gaseosas</p>
+                        <span>$4.700</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Agua / Agua con Gas</p>
+                        <span>$4.200</span>
+                    </div>
+
+                </div>
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Aguas Saborizadas</p>
+                        <span>$4.500</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <h3>JUGOS</h3>
+
+            <div class="menu-columnas">
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Exprimido de Naranja</p>
+                        <span>$7.000</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Limonada</p>
+                        <span>$7.000</span>
+                    </div>
+
+                </div>
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Pomelada</p>
+                        <span>$7.500</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Jarra 1 L</p>
+                        <span>$11.700</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <h3>LICUADOS</h3>
+
+            <div class="menu-columnas">
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Banana / Frutilla / Otros Frutos de Estación</p>
+                        <span>$8.000</span>
+                    </div>
+
+                </div>
+
+                <div class="menu-columna"></div>
+
+            </div>
+
+
+            <h3>SALUDABLES</h3>
+
+            <div class="menu-columnas">
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Yogurt con Frutas y Granola</p>
+                        <span>$12.000</span>
+                    </div>
+
+                </div>
+
+                <div class="menu-columna"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SECCION 5: DESAYUNOS Y MERIENDAS -->
+    <section class="menu-seccion" id="desayunos">
+
+        <div class="menu-titulo">
+            <p>05</p>
+            <h2>Desayunos y Meriendas</h2>
+        </div>
+
+        <div class="menu-contenido">
+
+            <p class="menu-aclaracion">
+                Infusión, espresso, cortado, jarrito, latte o café con leche
+            </p>
+
+            <div class="menu-columnas">
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Infusión + 3 Medialunas</p>
+                        <span>$9.000</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Infusión + Chipá 100 grs</p>
+                        <span>$9.900</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Infusión + Mini Alfajor</p>
+                        <span>$10.000</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Infusión + Tostado Pan Árabe [SG]</p>
+                        <span>$15.500</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Infusión + Tostadas Queso y Mermelada</p>
+                        <span>$13.500</span>
+                    </div>
+
+                </div>
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Infusión + Medialuna [SG]</p>
+                        <span>$13.900</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Infusión + Croissant [SG]</p>
+                        <span>$15.800</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Infusión + Avocado</p>
+                        <span>$20.900</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Infusión + Avocado Keto</p>
+                        <span>$20.900</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SECCION 6: PANADERIA Y PASTELERIA -->
+    <section class="menu-seccion menu-seccion-verde" id="panaderia">
+
+        <div class="menu-titulo">
+            <p>06</p>
+            <h2>Panadería y Pastelería</h2>
+        </div>
+
+        <div class="menu-contenido">
+
+            <h3>COOKIES</h3>
+
+            <div class="menu-columnas">
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Cookies</p>
+                        <span>$8.000</span>
+                    </div>
+
+                </div>
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Galletita Kitty</p>
+                        <span>$8.000</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <h3>PANADERÍA</h3>
+
+            <div class="menu-columnas">
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Medialunas</p>
+                        <span>$2.700</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Sfogliatella</p>
+                        <span>$9.500</span>
+                    </div>
+
+                </div>
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Pan de Chocolate</p>
+                        <span>$7.500</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Medialuna de Jamón y Queso</p>
+                        <span>$8.200</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Croissant de Jamón y Queso</p>
+                        <span>$11.000</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <h3>SIN TACC</h3>
+
+            <div class="menu-columnas">
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Alfajor de Nuez</p>
+                        <span>$9.800</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Mini Alfajor de Nuez</p>
+                        <span>$4.900</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Alfajor de Maicena</p>
+                        <span>$9.800</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Alfajor de Chocolate / Sal Marina</p>
+                        <span>$9.900</span>
+                    </div>
+
+                </div>
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Cuadrado de Brownie con Nuez</p>
+                        <span>$9.900</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Cuadrado de Coco</p>
+                        <span>$9.800</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Cookies Rellenas</p>
+                        <span>$10.500</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Lingote de Chocolate</p>
+                        <span>$12.000</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Tostado Chipá</p>
+                        <span>$18.500</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <h3>PASTELERÍA</h3>
+
+            <div class="menu-columnas">
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Cuadrado Brownie s/Nuez</p>
+                        <span>$8.700</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Cuadrado de Brownie c/ Frambuesas</p>
+                        <span>$9.000</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Cuadrado Blondie</p>
+                        <span>$12.000</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Cuadrado Coco y DDL</p>
+                        <span>$9.000</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Cuadrado de Limón</p>
+                        <span>$8.700</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Crumble de Manzana</p>
+                        <span>$9.000</span>
+                    </div>
+
+                </div>
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Crumble de Frutos Rojos</p>
+                        <span>$9.000</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Alfajor Almendra y DDL</p>
+                        <span>$8.000</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Macarrón</p>
+                        <span>$4.900</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Porción de Torta</p>
+                        <span>$18.000</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Media Porción</p>
+                        <span>$12.000</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SECCION 7: SALADOS -->
+    <section class="menu-seccion" id="salados">
+
+        <div class="menu-titulo">
+            <p>07</p>
+            <h2>Salados</h2>
+        </div>
+
+        <div class="menu-contenido">
+
+            <h3>WRAPS</h3>
+
+            <div class="menu-columnas">
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Bondiola</p>
+                        <span>$14.500</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Pollo</p>
+                        <span>$14.500</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Ternera</p>
+                        <span>$14.500</span>
+                    </div>
+
+                </div>
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Veggie</p>
+                        <span>$14.500</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Pollo Caesar Frío</p>
+                        <span>$13.500</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <h3>ENTRE PANES</h3>
+
+            <div class="menu-columnas">
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Pulled Pork</p>
+                        <span>$19.000</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Ternera</p>
+                        <span>$19.000</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Pollo</p>
+                        <span>$17.000</span>
+                    </div>
+
+                </div>
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Focaccia Jamón, Queso y Cebolla Caramelizada</p>
+                        <span>$15.000</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Focaccia Jamón Crudo y Pesto</p>
+                        <span>$16.000</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Chipá Jamón y Queso</p>
+                        <span>$11.000</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Scon Parmesano</p>
+                        <span>$7.500</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Scon Parmesano Jamón Crudo y Rúcula</p>
+                        <span>$11.500</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Tostado Pan Árabe [SG]</p>
+                        <span>$10.000</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <h3>ENSALADAS</h3>
+
+            <div class="menu-columnas">
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>Capri</p>
+                        <span>$18.000</span>
+                    </div>
+
+                    <div class="menu-producto">
+                        <p>Raíza</p>
+                        <span>$18.000</span>
+                    </div>
+
+                </div>
+
+                <div class="menu-columna">
+
+                    <div class="menu-producto">
+                        <p>César</p>
+                        <span>$18.000</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-derechos">
+            <p>© 2026 Raíza - Todos los derechos reservados</p>
+        </div>
+
+        <div class="footer-logo">
+            <a href="index.html">RAÍZA</a>
+        </div>
+
+        <div class="footer-redes">
+
+            <a href="https://www.instagram.com/raizaviverocafe">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+        </div>
+
+    </footer>
+
+
+<!-- WHATSAPP FLOTANTE -->
+<a href="https://api.whatsapp.com/send?phone=5491124633731&text=Buenas!"
+   class="whatsapp-flotante"
+   target="_blank">
+    <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+
+    <!-- JAVASCRIPT DEL MENU HAMBURGUESA -->
+    <script src="script.js"></script>
+
+</body>
+</html>

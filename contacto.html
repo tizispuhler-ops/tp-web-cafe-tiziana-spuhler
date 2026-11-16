@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Raíza</title>
+    <link rel="stylesheet" href="Estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    
+<!-- HEADER -->
+<header class="header">
+
+    <!-- MENU HAMBURGUESA MOBILE -->
+    <button class="menu-hamburguesa" onclick="abrirMenu()">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <!-- LOGO -->
+    <div class="logo">
+        <a href="index.html">RAÍZA</a>
+    </div>
+
+    <!-- NAVEGACION DESKTOP -->
+    <nav class="menu-derecha">
+        <a href="menu.html">CAFETERÍA</a>
+        <a href="reserva.html">RESERVA</a>
+        <a href="contacto.html" class="activo">CONTACTO</a>
+        <a href="tienda.html">TIENDA</a>
+    </nav>
+
+    <!-- MENU DESPLEGABLE MOBILE -->
+    <nav class="menu-mobile" id="menuMobile">
+
+        <button onclick="cerrarMenu()">X</button>
+
+        <a href="index.html">INICIO</a>
+        <a href="menu.html">CAFETERÍA</a>
+        <a href="reserva.html">RESERVA</a>
+        <a href="contacto.html">CONTACTO</a>
+        <a href="tienda.html">TIENDA</a>
+
+    </nav>
+
+</header>
+
+
+
+    <!-- SECCION 1: CONTACTO -->
+    <section class="contacto">
+
+        <div class="contacto-contenedor">
+
+            <div class="contacto-texto">
+
+                <h1>Contactate<br>
+                    <em>con nosotros</em>
+                </h1>
+
+                <div class="contacto-datos">
+
+                    <div class="contacto-dato">
+                        <h3><i class="fa-solid fa-location-dot"></i> DIRECCIÓN</h3>
+                        <p>Av. 12 de Octubre 3281,<br>
+                        B1669 La Lonja, Provincia de<br>
+                        Buenos Aires</p>
+                    </div>
+
+                    <div class="contacto-dato">
+                        <h3><i class="fa-regular fa-clock"></i> HORARIOS</h3>
+                        <p>Martes - Domingo<br>
+                        9am - 7pm</p>
+                    </div>
+
+                    <div class="contacto-dato">
+                        <h3><i class="fa-solid fa-phone"></i> TELÉFONO</h3>
+                        <p>0111524633731</p>
+                    </div>
+
+                    <div class="contacto-dato">
+                        <h3><i class="fa-regular fa-envelope"></i> EMAIL</h3>
+                        <p>info@raiza.com.ar</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="contacto-mapa">
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13161.572076315506!2d-58.843204!3d-34.44217!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9d002e48ea37%3A0x2dbac107109ccc0a!2sRaiza%20Vivero%20%26%20Caf%C3%A9!5e0!3m2!1ses!2sar!4v1793840191080!5m2!1ses!2sar"
+                    width="450"
+                    height="480"
+                    style="border:0;"
+                    loading="lazy">
+                </iframe>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-derechos">
+            <p>© 2026 Raíza - Todos los derechos reservados</p>
+        </div>
+
+        <div class="footer-logo">
+            <a href="index.html">RAÍZA</a>
+        </div>
+
+        <div class="footer-redes">
+
+            <a href="https://www.instagram.com/raizaviverocafe">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+        </div>
+
+    </footer>
+
+
+<!-- WHATSAPP FLOTANTE -->
+<a href="https://api.whatsapp.com/send?phone=5491124633731&text=Buenas!"
+   class="whatsapp-flotante"
+   target="_blank">
+    <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+    
+    <!-- JAVASCRIPT MENU HAMBURGUESA -->
+    <script src="script.js"></script>
+
+</body>
+</html>
